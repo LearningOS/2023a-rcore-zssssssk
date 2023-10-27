@@ -20,6 +20,8 @@ const SYSCALL_YIELD: usize = 124;
 const SYSCALL_GET_TIME: usize = 169;
 /// taskinfo syscall
 const SYSCALL_TASK_INFO: usize = 410;
+/// TIMEOFDAY syscall
+pub const SYSCALL_GETTIMEOFDAY: usize = 169;
 
 mod fs;
 mod process;
